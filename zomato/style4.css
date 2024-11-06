@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+body h3{
+    font-size:large;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(11, 14, 13);
+}
+.Images-container {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+    }
+    
+    .Images-container img:hover {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+
+button{
+    background-color:blanchedalmond;
+}
+.location-form {
+    margin-top: 20px;
+}
+
+.location-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.location-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+.location-button {
+    border: none;
+    border-radius: 5px;
+    background-color: #ff3e30; /* Zomato red color */
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.location-button:hover {
+    background-color: #ff2a24; /* Darker shade on hover */
+}
+

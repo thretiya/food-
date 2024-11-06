@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Login</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color:gainsboro;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .boxcontainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .boxcontainer a{
+            width: 7vw;
+            height: 2vw;
+            font-size: 1vw;
+            font-family:cursive;
+            cursor: pointer;
+            margin-top: 2VW;
+            border-radius: 2vw;
+            display: grid;
+            place-items: center;
+            text-decoration: none;
+            color: black;
+
+
+
+        }
+        h2 {
+            text-align: center;
+            color: #0020d5; /* Zomato's primary color */
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #d50000; /* Zomato's primary color */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #a40000; /* Darker shade for hover */
+        }
+        .signup-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Login</h2>
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+
+
+        <div class="boxcontainer">
+         <a href="search2.html">submit</a>
+        </div>
+            
+    </form>
+    <div class="sign.html">
+       
+        <p>Don't have an account? <a href="sign.html">Sign up</a></p>
+    </div>
+</div>
+
+</body>
+</html>
